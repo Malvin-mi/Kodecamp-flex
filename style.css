@@ -1,0 +1,323 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'open sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.row {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.column-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row-100 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.custom-font {
+    font-family: 'playfair display', serif;
+}
+
+header {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 60px;
+    background-image: url('BluSky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .banner-heading {
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2.2rem;
+}
+.banner-text {
+    font-size: 0.9rem;
+    font-weight: normal;
+    background-color: white;
+    padding: 30px;
+}
+.aboutin {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #d9b1b3;
+    color: white;
+}
+.tin {
+    font-style: italic;
+}
+
+.tin span {
+    font-size: 5rem;
+    line-height: 0;
+}
+.aboutin p {
+    font-size: 0.9rem;
+    width: 50%;
+}
+
+.gallery .img-contain{
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gallery .gallery-img-1 {
+  background-image: url('apple.jpg');
+}
+.gallery .gallery-img-2 {
+    background-image: url('Arya.jpg');
+}
+.gallery .gallery-img-3 {
+    background-image: url('Hodor.jpg');
+}
+.gallery .gallery-img-4 {
+    background-image: url('iPhone.jpg');
+  }
+  .gallery .gallery-img-5 {
+      background-image: url('iris.jpg');
+  }
+  .gallery .gallery-img-6 {
+      background-image: url('IssaO.jpg');
+  }
+
+  .coming {
+      background-color: #d9b1b3;
+      color: white;
+      padding: 50px 0;
+     
+  }
+
+  .coming .column {
+      justify-content: center;
+  }
+  .coming .coming-head {
+      text-align: center;
+      font-size: 4rem;
+      font-style: italic;
+  }
+  .coming .coming-text {
+      text-align: center;
+      font-size: 1.3rem;
+  }
+   .coming .coming-form {
+      margin-top: 35px;
+      
+   }
+
+   .coming-form .row-100 {
+       justify-content: center;
+   }
+
+   .coming-form .contain-input {
+       display: flex;
+       justify-content: center;
+       padding: 0 5px;
+   }
+
+   .contain-input .text-input, 
+   .contain-input .form-button {
+       padding: 12px 10px;
+       border: unset;
+       border-radius: 20px;
+   }
+   .contain-input .form-button {
+       background-color: black;
+       color: white;
+   }
+   .pretty{
+       margin: 40px 120px;
+   }
+
+   .pretty .fineissa-tin {
+       height: 500px;
+       width: 190%;
+       display: flex;
+       flex-grow: 1;
+       overflow: hidden;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+
+   }
+
+   .pretty .fineissa {
+       background-image: url('IssaW.jpg');
+   }
+   .pretty .issatext {
+       margin: 100px 100px 100px 50px;
+   }
+   .issatext p {
+       font-size: 1rem;
+   }
+
+   .collection {
+       padding: 70px 80px;
+       background-color: #d9b1b3;
+       color: white;
+   }
+   .headies h3 {
+       font-size: 4rem;
+       font-style: italic;
+   }
+   .collection .sample-img {
+    height: 350px;
+    display: flex;   
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   .collection .img-1 {
+   background-image: url('IWD.jpg');
+   }
+   .collection .img-2 {
+    background-image: url('Mag.jpg');    
+   }
+   .collection .img-3 {
+     background-image: url('Papilon.jpg');  
+   }
+   .collection .img-4 {
+       background-image: url('SideSky.jpg');    
+   }   
+
+   .samples .sample-img {
+       margin: 25px 4px;
+   } 
+
+   .shoes .fresh {
+    height: 350px;
+    width: 50%;
+    display: flex;   
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .shoes {
+       padding: 80px 200px 100px 100px;
+   }
+
+   .shoes .pic-1 {
+       background-image: url('slide-2.jpg');
+   }
+
+   .shoes .pic-2 {
+       background-image: url('slide-3.jpg');
+   }
+
+   .shoes .fresh {
+       margin: 0 15px;
+   }
+   .shoes .add-cart  {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin: 0 20px;
+      padding-top: 40px;
+  }
+  .shoes .add-cart h2 {
+      margin: 15px 0 10px 0;
+  }
+
+  .shoes .add-cart p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+  }
+  
+  .add-cart .cart-btn {
+      width: 50%;
+      padding: 12px 10px;
+      border: unset;
+      border-radius: 20px;
+      background-color: black;
+      color: white;
+  }
+
+  .subscribe .sidies {
+    height: 100vh;
+    width: 100%;
+    display: flex;   
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+  
+   .subscribe .left-back {
+       background-image: url('subscribe.jpeg');
+   }
+   
+   .subscribe .right-back {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin: 100px 40px;
+   }
+.subscribe .right-back h3 {
+    font-size: 4rem;
+    font-style: italic;
+}
+.sub-form .sub-input {
+    justify-content: center;
+    padding: 50px 5px 10px 5px;
+}
+.right-back .sub-form {
+    display: flex;
+    flex-direction: row;
+
+}
+.sub-input .text-input {
+    padding: 10px 20px;
+}
+.sub-btn .form-button {
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: unset;
+}
+
+.sub-text {
+    margin: 10px 130px;
+}
+.sub-text p{
+    font-size: 0.8rem;
+}
+.sub-icon i {
+    margin: 0 8px;
+
+}
+.subscribe {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
