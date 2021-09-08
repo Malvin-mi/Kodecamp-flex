@@ -7,6 +7,7 @@ body {
     font-family: 'open sans', sans-serif;
     font-size: 1.4rem;
     line-height: 1.6;
+    padding-bottom: 0;
 }
 
 .row {
@@ -42,7 +43,7 @@ header {
     justify-content: center;
     align-items: flex-end;
     padding: 60px;
-    background-image: url('BluSky.jpg');
+    background-image: url('banner.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -88,22 +89,22 @@ header {
     background-position: center;
 }
 .gallery .gallery-img-1 {
-  background-image: url('apple.jpg');
+  background-image: url('gallery-1.jpeg');
 }
 .gallery .gallery-img-2 {
-    background-image: url('Arya.jpg');
+    background-image: url('gallery-2.jpeg');
 }
 .gallery .gallery-img-3 {
-    background-image: url('Hodor.jpg');
+    background-image: url('gallery-3.jpeg');
 }
 .gallery .gallery-img-4 {
-    background-image: url('iPhone.jpg');
+    background-image: url('gallery-4.jpeg');
   }
   .gallery .gallery-img-5 {
-      background-image: url('iris.jpg');
+      background-image: url('gallery-5.jpeg');
   }
   .gallery .gallery-img-6 {
-      background-image: url('IssaO.jpg');
+      background-image: url('gallery-6.jpeg');
   }
 
   .coming {
@@ -150,6 +151,10 @@ header {
        background-color: black;
        color: white;
    }
+.contain-input button:hover { 
+    background-color: #d72638;
+
+}
    .pretty{
        margin: 40px 120px;
    }
@@ -167,7 +172,7 @@ header {
    }
 
    .pretty .fineissa {
-       background-image: url('IssaW.jpg');
+       background-image: url('article-img.jpeg');
    }
    .pretty .issatext {
        margin: 100px 100px 100px 50px;
@@ -195,16 +200,16 @@ header {
     background-position: center;
    }
    .collection .img-1 {
-   background-image: url('IWD.jpg');
+   background-image: url('slide-1.jpg');
    }
    .collection .img-2 {
-    background-image: url('Mag.jpg');    
+    background-image: url('slide-2.jpg');    
    }
    .collection .img-3 {
-     background-image: url('Papilon.jpg');  
+     background-image: url('slide-3.jpg');  
    }
    .collection .img-4 {
-       background-image: url('SideSky.jpg');    
+       background-image: url('slide-4.jpg');    
    }   
 
    .samples .sample-img {
@@ -227,11 +232,11 @@ header {
    }
 
    .shoes .pic-1 {
-       background-image: url('slide-2.jpg');
+       background-image: url('product-1.jpg');
    }
 
    .shoes .pic-2 {
-       background-image: url('slide-3.jpg');
+       background-image: url('product-2.jpg');
    }
 
    .shoes .fresh {
@@ -260,6 +265,13 @@ header {
       border-radius: 20px;
       background-color: black;
       color: white;
+  }
+  .add-cart button:hover { 
+    background-color: #d9b1b3;
+
+}
+  .subscribe {
+      max-height: 100%;
   }
 
   .subscribe .sidies {
@@ -306,6 +318,10 @@ header {
     border-radius: 20px;
     border: unset;
 }
+.sub-btn button:hover { 
+    background-color: #d9b1b3;
+
+}
 
 .sub-text {
     margin: 10px 130px;
@@ -317,7 +333,5 @@ header {
     margin: 0 8px;
 
 }
-.subscribe {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
+
+
